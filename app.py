@@ -8,12 +8,12 @@ app = Flask(__name__)
 # MPesa Sandbox credentials
 BUSINESS_SHORTCODE = "174379"  # Sandbox Shortcode
 LIPA_NA_MPESA_PASSKEY = "bfb279f4f9b3a265f0c2f0e217dbd72e"  # Sandbox Passkey
-CONSUMER_KEY = "YourConsumerKeyHere"
-CONSUMER_SECRET = "YourConsumerSecretHere"
+CONSUMER_KEY = "AYQ3zjQHDcXjt6pFmBHAif0h02a0ED3hnwqXEu5ascUZ5WnG"
+CONSUMER_SECRET = "HOIHvKDEG4QMBJt6v5jRE1WY4xDyaFCGjdiwmtgGiPuo9ucVybdRGmspTMe4Y48t"
 
 # MPesa Base URLs
 SANDBOX_BASE_URL = "https://sandbox.safaricom.co.ke"
-PRODUCTION_BASE_URL = "https://api.safaricom.co.ke"
+
 
 def get_access_token():
     """
