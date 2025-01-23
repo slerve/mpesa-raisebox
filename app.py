@@ -33,7 +33,7 @@ def generate_password():
     encoded_password = base64.b64encode(data_to_encode.encode()).decode()
     return encoded_password, timestamp
 
-@app.route('/mpesa-push', methods=['POST'])
+@app.route('/index', methods=['POST'])
 def lipa_na_mpesa():
     """
     Handle STK Push requests from the frontend.
